@@ -203,3 +203,48 @@ body {
     width: 48%;
     margin: 10px;
 }
+
+/* About */
+#AboutContainer {
+    margin: 100px 0;
+}
+
+.about-text {
+    text-align: justify;
+}
+
+.about-img img {
+    width: 100%;
+    background-size: cover;
+}
+
+/* Company Logo  */
+.trust-company {
+    margin: 200px 0;
+}
+
+.company-logo img {
+    width: 100px;
+}
+
+/*Success*/
+.sucess-content {
+    width: 250px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sucess-content img {
+    width: 100%;
+}
+
+.sucess-content .skill {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(143, 143, 143);
+}
+
+.sucess-content .brief {
+    font-size: 14px;
+}
