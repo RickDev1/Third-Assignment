@@ -33,7 +33,7 @@ ol {
     padding: 0;
 }
 
-/*--------- TYPOGRAPHY ---------*/
+/*-- TYPOGRAPHY --*/
 
 h1 {
     font-size: 65px;
@@ -59,7 +59,7 @@ h5 {
 
 p {
     font-size: 16px;
-    color: rgb(44, 44, 44);
+    color: rgb(60, 59, 59);
     line-height: 1.5;
 }
 
@@ -76,4 +76,79 @@ section#courses {
 
 #RegisterContainer {
     margin-bottom: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 153, 255);
+}
+
+/*-- BODY --*/
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    color: rgb(27, 27, 27);
+    font-weight: 400;
+}
+
+/*-- Navbar -- */
+#HeaderContainer .navbar-brand {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+}
+
+#HeaderContainer .navbar-brand span.highlight {
+    color: rgb(0, 153, 255);
+}
+
+#HeaderContainer .navbar-brand .fa-graduation-cap {
+    transform: rotate(20deg);
+}
+
+#HeaderContainer .nav-item {
+    padding: 0 5px;
+}
+
+#HeaderContainer .nav-link {
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+}
+
+#HeaderContainer .nav-link.active {
+    color: rgb(0, 153, 255);
+}
+
+#HeaderContainer .nav-link:hover {
+    color: rgb(0, 153, 255);
+}
+
+#HeaderContainer .header-menu {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#HeaderContainer .call-btn {
+    padding: 10px 20px;
+    color: white;
+}
+
+.TopHeader {
+    background-color: rgba(240, 240, 240, 1);
+}
+
+#HeaderContainer .call-btn:hover {
+    background-color: rgba(0, 153, 255, 0) !important;
 }
