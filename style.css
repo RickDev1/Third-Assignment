@@ -152,3 +152,54 @@ body {
 #HeaderContainer .call-btn:hover {
     background-color: rgba(0, 153, 255, 0) !important;
 }
+
+/* Header Slider */
+.HeaderSlider .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background: no-repeat scroll center scroll;
+    background-size: cover cover;
+}
+
+.HeaderSlider .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: .8;
+}
+
+.HeaderSlider .carousel-caption {
+    margin-bottom: 100px;
+}
+
+.HeaderSlider .carousel-caption p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.HeaderSlider .carousel-caption .get-started-btn {
+    padding: 10px 30px;
+}
+
+.HeaderSlider .carousel-caption .get-started-btn:hover {
+    background-color: transparent;
+}
+
+/* Courses */
+
+#courses {
+    margin-bottom: 100px;
+}
+
+.CoursesHeader {
+    margin-top: 100px;
+}
+
+.course-item {
+    width: 48%;
+    margin: 10px;
+}
