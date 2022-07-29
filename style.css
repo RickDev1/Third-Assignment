@@ -74,7 +74,7 @@ section#courses {
     margin-bottom: 200px;
 }
 
-#RegisterContainer {
+#Register {
     margin-bottom: 100px;
 }
 
@@ -205,7 +205,7 @@ body {
 }
 
 /* About */
-#AboutContainer {
+#About {
     margin: 100px 0;
 }
 
