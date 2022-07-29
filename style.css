@@ -284,3 +284,134 @@ body {
     height: 600px;
     background-size: cover;
 }
+
+/* Responsive */
+/* mobile */
+@media screen and (max-width: 480px) {
+    .HeaderSlider .carousel-item h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .HeaderSlider .carousel-item {
+        height: 250px;
+    }
+
+    .HeaderSlider .carousel-caption {
+        margin-bottom: 0;
+    }
+
+    .HeaderSlider .carousel-caption .get-started-btn {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .course-header-title {
+        font-size: 20px;
+    }
+
+    .HeaderSlider .carousel-item p {
+        display: none;
+    }
+
+    /* Courses */
+    .CoursesHeader {
+        width: 100% !important;
+    }
+
+    .course-header-title {
+        font-size: 30px;
+    }
+
+    .course-header-brief {
+        font-size: 14px;
+    }
+
+    .course-item {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 30px;
+        overflow: hidden;
+        border: 1px solid gray !important;
+        padding: 0 10px;
+    }
+
+    .course-img img {
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+    /* Registar */
+    .reg-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .register-content {
+        width: 100% !important;
+    }
+
+    .register-title {
+        font-size: 30px;
+        margin-bottom: 20px !important;
+    }
+
+    .register-brief {
+        font-size: 14px;
+    }
+
+    .trust-company {
+        display: none;
+    }
+
+    .about-text,
+    .about-img {
+        width: 100% !important;
+    }
+
+    .about-img img {
+        margin-bottom: 20px;
+    }
+
+    .about-title {
+        font-size: 25px;
+    }
+
+    .about-text h5 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .sucess-content {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .success-title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .success-title-brief {
+        font-size: 14px;
+    }
+
+    .faqs-title {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px !important;
+    }
+
+    .accordion-button {
+        font-size: 14px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
+    }
+}
